@@ -1,0 +1,129 @@
+/* WelcomeScreen.css */
+
+/* Set background image for the entire page */
+body {
+    background-image: url("https://indoinvite.com/nikah/template/pandora/pandora-classic/PC-BG.jpg");
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styles for the welcome screen content */
+.welcome-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh; /* Ensure the welcome screen takes up the full viewport height */
+    width: 100%; /* Ensure the welcome screen takes up the full viewport width */
+    position: relative; /* Ensure positioned elements respect this container */
+}
+
+.corner-image {
+    position: absolute;
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.center-frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.photo-frame {
+    margin: 0 auto;
+    height: 280px; /* Ensure height matches width for a circular shape */
+    position: relative;
+    background-size: cover;
+    overflow: hidden; /* Ensures the background image stays within the circular boundary */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 80px;
+}
+
+.container {
+    margin-top: 0 auto;
+    margin-bottom: 10px;
+}
+
+.awal-img-border {
+    position: relative; 
+    width: 240px; 
+    margin: 0 auto; 
+    margin-top: -197.5px;
+}
+
+#awal-fun-div-id5{
+
+    position: relative; 
+    width: 190px; 
+    height: 190px;
+    border-radius: 200px; 
+    margin: 0 auto;
+    background:url('/public/garapan.jpg'); background-position: center; background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-nikah{
+    color: #77787a; 
+    font-size: 12.5px;
+    margin: 0 auto;  
+    font-weight:600; 
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    
+}
+
+h1{
+    font-family: 'Great Vibes', cursive !important;
+    font-size: 35px; color: #986a52 !important; font-weight:500;
+    margin-top: 50px;
+}
+
+.kepada{
+    font-size: 12px;
+    margin-top: 30px;
+    color: #3b3633;
+
+}
+
+.button-black {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.ikon-undangan {
+    margin-right: 8px; /* Adds space between icon and text */
+}
